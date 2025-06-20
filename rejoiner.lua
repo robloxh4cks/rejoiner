@@ -34,7 +34,7 @@ end
 local function FindAndJoinGoodServer()
     print("Incorrect server population. Searching for a server with 2-3 players...")
     
-    if selfUrl == "https://raw.githubusercontent.com/your-repo/your-file.lua" then
+    if selfUrl == "https://github.com/robloxh4cks/rejoiner/refs/heads/main/rejoiner.lua" then
         warn("Script cannot hop servers. Please set the 'selfUrl' variable at the top of the script.")
         return
     end
