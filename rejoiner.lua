@@ -1,7 +1,7 @@
 -- ================== CONFIGURATION ==================
 -- IMPORTANT: You must upload this script to a site like GitHub and paste the raw URL here.
 -- This is required for the script to re-run after teleporting.
-local selfUrl = "https://github.com/robloxh4cks/rejoiner/refs/heads/main/rejoiner.lua" -- PASTE YOUR URL HERE
+local selfUrl = "https://raw.githubusercontent.com/robloxh4cks/rejoiner/refs/heads/main/rejoiner.lua" -- PASTE YOUR URL HERE
 
 local Config = {
     Username = "primxeorlando",
@@ -34,7 +34,7 @@ end
 local function FindAndJoinGoodServer()
     print("Incorrect server population. Searching for a server with 2-3 players...")
     
-    if selfUrl == "https://github.com/robloxh4cks/rejoiner/refs/heads/main/rejoiner.lua" then
+    if selfUrl == "https://raw.githubusercontent.com/robloxh4cks/rejoiner/refs/heads/main/rejoiner.lua" then
         warn("Script cannot hop servers. Please set the 'selfUrl' variable at the top of the script.")
         return
     end
